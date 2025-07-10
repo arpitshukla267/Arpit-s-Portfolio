@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
               </div>
 
               {/* Newsletter Signup */}
-              <div className="mt-8 p-4 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg border border-white/10">
+              {/* <div className="mt-8 p-4 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg border border-white/10">
                 <h4 className="text-white font-medium mb-2 text-sm">Stay Updated</h4>
                 <p className="text-gray-400 text-xs mb-3">Get notified about new projects</p>
                 <div className="flex">
@@ -133,7 +133,7 @@ const Footer: React.FC = () => {
                     Join
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

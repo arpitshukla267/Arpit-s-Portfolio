@@ -207,7 +207,7 @@ const Contact: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-black border border-gray-600 rounded-lg text-white focus:outline-none focus:border-purple-400 transition-colors duration-300"
-                    placeholder="your.email@example.com"
+                    placeholder="Your Email"
                     required
                   />
                 </div>

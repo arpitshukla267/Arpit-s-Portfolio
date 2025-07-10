@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Mail, Linkedin, Phone  } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -138,7 +138,7 @@ const Header: React.FC = () => {
       >
         {/* Menu Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-700/50">
-          <h2 className="text-xl font-bold text-white">Navigation</h2>
+          <h2 className="text-xl font-bold text-white">Arpit</h2>
           <button
             onClick={() => setIsMenuOpen(false)}
             className="p-2 text-gray-400 hover:text-white transition-colors duration-300"
@@ -201,17 +201,33 @@ const Header: React.FC = () => {
             style={{ transitionDelay: isMenuOpen ? '600ms' : '0ms' }}
           >
             <p className="text-gray-400 text-sm mb-2">Connect with me</p>
-            <div className="flex justify-center space-x-4">
-              <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300">
-                <span className="text-xs font-bold">G</span>
-              </a>
-              <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300">
-                <span className="text-xs font-bold">L</span>
-              </a>
-              <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300">
-                <span className="text-xs font-bold">T</span>
-              </a>
-            </div>
+           <div className="flex justify-center space-x-4">
+  <a
+    href="mailto:shuklaarpit440@gmail.com"
+    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+  >
+    <Mail className="w-4 h-4" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/arpit-shukla-9a8b54358/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+  >
+    <Linkedin className="w-4 h-4" />
+  </a>
+
+  <a
+    href="tel:+916393818467"
+    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+  >
+    <Phone className="w-4 h-4" />
+  </a>
+</div>
+
+
+
           </div>
         </div>
       </div>

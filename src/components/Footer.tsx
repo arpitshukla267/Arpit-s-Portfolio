@@ -177,8 +177,8 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Copyright */}
-            <div className="flex items-center space-x-4 text-gray-500 text-sm">
-              <p className="flex items-center">
+            <div className="flex flex-row flex-wrap mx-[-7px] md:mx-0 items-center space-x-2 md:space-x-4 text-gray-500 text-sm">
+              <p className="flex flex-row  items-center">
                 Made with <Heart size={14} className="mx-2 text-red-500 animate-pulse" /> by Arpit
               </p>
               <span className="hidden md:block">•</span>

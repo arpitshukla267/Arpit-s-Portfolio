@@ -25,10 +25,12 @@ const About: React.FC = () => {
   const skills = [
     { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-orange-500' },
     { name: 'React', level: 85, color: 'from-blue-400 to-cyan-500' },
-    { name: 'HTML/CSS', level: 95, color: 'from-orange-400 to-red-500' },
+    { name: 'NextJs', level: 80, color: 'from-orange-400 to-red-500' },
+    { name: 'TypeScript', level: 75, color: 'from-green-400 to-teal-500' },
     { name: 'Tailwind', level: 80, color: 'from-green-400 to-emerald-500' },
-    { name: 'C Programming', level: 88, color: 'from-purple-400 to-pink-500' },
-    { name: 'C++', level: 85, color: 'from-gray-400 to-gray-600' },
+    { name: 'HTML/CSS', level: 88, color: 'from-purple-400 to-pink-500' },
+    { name: 'C Programming', level: 85, color: 'from-gray-400 to-gray-600' },
+    { name: 'C++', level: 80, color: 'from-blue-500 to-indigo-600' },
   ];
 
   const stats = [

@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
       {previewUrl && (
   <div className="fixed inset-0 z-[100] bg-black bg-opacity-80 flex items-center justify-center">
     {/* Modal Container */}
-    <div className="relative w-[90vw] lg:w-[95%] h-[80vh] max-w-6xl bg-white rounded-xl shadow-2xl overflow-hidden">
+    <div className="relative w-[90vw] lg:w-[95%] h-[80vh] max-w-8xl bg-white rounded-xl shadow-2xl overflow-hidden">
 
       {/* ❌ Close Button (outside iframe) */}
       <div className="absolute top-0 right-0 md:top-3 md:right-3 z-20">

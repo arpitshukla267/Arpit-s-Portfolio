@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description:
       'A sleek portfolio website built for a media production team to showcase projects, services, and client collaborations with responsive layouts and dynamic animations.',
     image:
-      'https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lZGlhJTIwcHJvZHVjdGlvbnxlbnwwfHwwfHx8MA%3D%3D',
     category: 'web',
     technologies: ['React', 'Javascript', 'Tailwind', 'Framer-Motion'],
     liveUrl: 'https://gunno-media-production.vercel.app/',
@@ -29,10 +29,11 @@ export const projects: Project[] = [
     id: 3,
     title: 'Camperz - A Camping App',
     description: 'A comprehensive camping app that helps users find campsites, plan trips, and share experiences with a community of outdoor enthusiasts.',
-    image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcGluZ3xlbnwwfHwwfHx8MA%3D%3D',
     category: 'web',
     technologies: ['NextJs', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    githubUrl: 'https://camperz-three.vercel.app/',
+    liveUrl: 'https://camperz-three.vercel.app/',
+    githubUrl: 'https://github.com/arpitshukla267/camperz'
   },
   {
     id: 4,
@@ -40,7 +41,7 @@ export const projects: Project[] = [
     description:
       'An AI-powered assistant dashboard featuring voice interaction, task automation, and integrated widgets for weather, notes, and reminders in a modern interface.',
     image:
-      'https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://media.istockphoto.com/id/1646708089/photo/business-chatting-a-smart-ai-using-an-artificial-intelligence-chatbot-developed-with-ai-robot.webp?a=1&b=1&s=612x612&w=0&k=20&c=tgn0kQY0xWmICNuX0GeQtawqgnNKD8MWlnSqWodMUjY=',
     category: 'web',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveUrl: ' https://arpitshukla267.github.io/AI-Assistant/',

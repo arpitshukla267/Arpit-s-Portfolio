@@ -27,6 +27,15 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: 'Camperz - A Camping App',
+    description: 'A comprehensive camping app that helps users find campsites, plan trips, and share experiences with a community of outdoor enthusiasts.',
+    image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'web',
+    technologies: ['NextJs', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    githubUrl: 'https://camperz-three.vercel.app/',
+  },
+  {
+    id: 4,
     title: 'AI Assistant',
     description:
       'An AI-powered assistant dashboard featuring voice interaction, task automation, and integrated widgets for weather, notes, and reminders in a modern interface.',
@@ -37,15 +46,6 @@ export const projects: Project[] = [
     liveUrl: ' https://arpitshukla267.github.io/AI-Assistant/',
     githubUrl: 'https://github.com/arpitshukla267/AI-Assistant',
   },
-  // {
-  //   id: 4,
-  //   title: 'Memory Allocator',
-  //   description: 'A custom memory allocator implemented in C with optimized allocation strategies, garbage collection, and memory leak detection.',
-  //   image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800',
-  //   category: 'c',
-  //   technologies: ['C', 'Data Structures', 'Algorithms', 'Memory Management'],
-  //   githubUrl: '#',
-  // },
   // {
   //   id: 5,
   //   title: 'File System Implementation',
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     image:
       'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
     category: 'web',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    technologies: ['NextJs', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     liveUrl: '#',
     githubUrl: '#',
   },

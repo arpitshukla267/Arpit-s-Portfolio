@@ -143,6 +143,10 @@ const Hero: React.FC = () => {
       </div>
     </section>
   );
+  <a href="#projects" data-cursor-magnetic data-cursor-size="80">
+  See My Work →
+</a>
+
 };
 
 export default Hero;

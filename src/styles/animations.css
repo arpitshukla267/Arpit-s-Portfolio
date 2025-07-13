@@ -448,3 +448,35 @@ a:focus {
 .line-expand.active {
   transform: scaleX(1);
 }
+
+/* Custom cursor utilities */
+.cursor-n-resize { cursor: n-resize; }
+.cursor-s-resize { cursor: s-resize; }
+.cursor-e-resize { cursor: e-resize; }
+.cursor-w-resize { cursor: w-resize; }
+.cursor-ne-resize { cursor: ne-resize; }
+.cursor-nw-resize { cursor: nw-resize; }
+.cursor-se-resize { cursor: se-resize; }
+.cursor-sw-resize { cursor: sw-resize; }
+.cursor-default { cursor: default; }
+
+/* Smooth cursor transitions */
+.cursor-transition {
+  transition: all 0.15s ease-out;
+}
+
+/* Cursor blend modes for better visibility */
+.cursor-blend {
+  mix-blend-mode: difference;
+}
+
+/* Disable cursor on mobile devices */
+@media (hover: none) and (pointer: coarse) {
+  .dynamic-cursor {
+    display: none !important;
+  }
+  
+  * {
+    cursor: auto !important;
+  }
+}

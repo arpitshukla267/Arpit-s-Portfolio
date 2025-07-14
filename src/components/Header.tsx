@@ -59,10 +59,10 @@ const Header: React.FC = () => {
             : 'bg-transparent py-5'
         }`}
       >
-        <div className="container mx-auto px-6 flex justify-between items-center mobile-menu-container">
+        <div className=" container mx-auto px-6 flex justify-between items-center mobile-menu-container">
           <a
             href="#home"
-            className="text-2xl font-bold text-white hover:text-purple-400 transition-colors duration-300"
+            className="text-2xl playball-regular font-bold text-white hover:text-purple-400 transition-colors duration-300"
           >
             ARPIT
           </a>

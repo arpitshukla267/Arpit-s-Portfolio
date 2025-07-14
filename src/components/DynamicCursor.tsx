@@ -130,7 +130,7 @@ const DynamicCursor: React.FC = () => {
   const angle = Math.atan2(velocity.y, velocity.x);
   
   // Enhanced movement effects - more dramatic scaling
-  const baseSize = isHovering ? 50 : 35;
+  const baseSize = isHovering ? 30 : 15;
   const clickScale = isClicking ? 0.7 : 1;
   
   // More dramatic speed-based scaling reduction
@@ -190,7 +190,7 @@ const DynamicCursor: React.FC = () => {
           width: `${baseSize * stretchX * clickScale * speedScale}px`,
           height: `${baseSize * stretchY * clickScale * speedScale}px`,
           backgroundColor: isHovering ? 'transparent' : 'white',
-          border: isHovering ? '3px solid white' : isClicking ? '2px solid white' : 'none',
+          border: isHovering ? '3px solid white opacity-90' : isClicking ? '2px solid white' : 'none',
           borderRadius: `${topLeftRadius}px ${topRightRadius}px ${bottomRightRadius}px ${bottomLeftRadius}px`,
           mixBlendMode: 'difference',
           transform: 'translate3d(0, 0, 0)',
@@ -241,10 +241,10 @@ const DynamicCursor: React.FC = () => {
         <div
           className="fixed pointer-events-none z-49"
           style={{
-            left: cursorPosition.x - 35,
-            top: cursorPosition.y - 35,
-            width: '70px',
-            height: '70px',
+            left: cursorPosition.x - 25,
+            top: cursorPosition.y - 25,
+            width: '50px',
+            height: '50px',
             border: '1px solid rgba(255, 255, 255, 0.4)',
             borderRadius: '50%',
             mixBlendMode: 'difference',

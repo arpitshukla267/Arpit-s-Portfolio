@@ -59,16 +59,16 @@ const Header: React.FC = () => {
             : 'bg-transparent py-5'
         }`}
       >
-        <div className=" container mx-auto px-6 flex justify-between items-center mobile-menu-container">
+        <div className=" container  poetsen-one-regular  mx-auto px-6 flex justify-between items-center mobile-menu-container">
           <a
             href="#home"
-            className="text-2xl playball-regular font-bold text-white hover:text-purple-400 transition-colors duration-300"
+            className="text-2xl font-extrabold text-white hover:text-purple-400 transition-colors duration-300"
           >
             ARPIT
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex aladin-regular items-center space-x-8">
             {navLinks.map((link, index) => (
               <a
                 key={link.name}
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-white hover:text-purple-400 transition-all duration-300 hover:scale-110 relative z-50"
+            className="md:hidden p-2 aladin-regular text-white hover:text-purple-400 transition-all duration-300 hover:scale-110 relative z-50"
             aria-label="Toggle mobile menu"
           >
             <div className="relative w-6 h-6">
@@ -137,8 +137,8 @@ const Header: React.FC = () => {
         }`}
       >
         {/* Menu Header */}
-        <div className="flex items-center justify-between p-6 border-b border-gray-700/50">
-          <h2 className="text-xl font-bold text-white">Arpit</h2>
+        <div className="flex items-center poetsen-one-regular justify-between p-6 border-b border-gray-700/50">
+          <h2 className="text-xl font-extrabold text-white">Arpit</h2>
           <button
             onClick={() => setIsMenuOpen(false)}
             className="p-2 text-gray-400 hover:text-white transition-colors duration-300"
@@ -202,32 +202,29 @@ const Header: React.FC = () => {
           >
             <p className="text-gray-400 text-sm mb-2">Connect with me</p>
            <div className="flex justify-center space-x-4">
-  <a
-    href="mailto:shuklaarpit440@gmail.com"
-    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
-  >
-    <Mail className="w-4 h-4" />
-  </a>
-
-  <a
-    href="https://www.linkedin.com/in/arpit-shukla-9a8b54358/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
-  >
-    <Linkedin className="w-4 h-4" />
-  </a>
-
-  <a
-    href="tel:+916393818467"
-    className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
-  >
-    <Phone className="w-4 h-4" />
-  </a>
-</div>
-
-
-
+             <a
+               href="mailto:shuklaarpit440@gmail.com"
+               className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+             >
+               <Mail className="w-4 h-4" />
+             </a>
+           
+             <a
+               href="https://www.linkedin.com/in/arpit-shukla-9a8b54358/"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+             >
+               <Linkedin className="w-4 h-4" />
+             </a>
+           
+             <a
+               href="tel:+916393818467"
+               className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
+             >
+               <Phone className="w-4 h-4" />
+             </a>
+           </div>
           </div>
         </div>
       </div>

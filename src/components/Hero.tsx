@@ -67,11 +67,26 @@ const Hero: React.FC = () => {
             >
               ARPIT
             </h1>
-            
+            {/* <div className="relative inline-flex items-center justify-center mb-6 h-[36.5px] w-fit rounded-full overflow-hidden">
+             // Rotating border behind 
+             <div className="absolute top-[50%] w-[-2px] h-3 px-5 inset-2 z-0 backdrop:blur-md blur-sm rotate-ring opacity-40 shadow-md rounded-full"></div>
+           
+             // Foreground text with background blur 
+             <span
+               className="relative z-10 inline-block px-6 pt-[6px] pb-[5px] text-base font-medium whitespace-nowrap rounded-full bg-neutral-900/70 text-neutral-100 overflow-hidden"
+               style={{
+                 fontFamily: 'stolzl_light, sans-serif',
+                 backdropFilter: 'blur(20px)',
+               }}
+             >
+               Hello, I'm Arpit
+             </span>
+           </div> */}
+ 
             {/* Animated Role Text */}
-            <div className="h-16 flex items-center justify-center">
+            <div className="h-16 flex quando-regular items-center justify-center">
               <p 
-                className={`text-2xl md:text-3xl text-gray-300 font-light transition-all duration-500 ${
+                className={`text-2xl md:text-4xl text-gray-300 font-semibold transition-all duration-500 ${
                   isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
                 }`}
               >
@@ -88,7 +103,7 @@ const Hero: React.FC = () => {
 
           {/* Description */}
           <p 
-            className={`text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed transition-all duration-1000 delay-300 ${
+            className={`text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed aladin-regular transition-all duration-1000 delay-300 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >

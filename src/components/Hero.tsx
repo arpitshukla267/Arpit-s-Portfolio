@@ -67,11 +67,11 @@ const Hero: React.FC = () => {
             >
               ARPIT
             </h1>
-            {/* <div className="relative inline-flex items-center justify-center mb-6 h-[36.5px] w-fit rounded-full overflow-hidden">
-             // Rotating border behind 
+            <div className="relative inline-flex items-center justify-center mb-6 h-[36.5px] w-fit rounded-full overflow-hidden">
+             {/* // Rotating border behind  */}
              <div className="absolute top-[50%] w-[-2px] h-3 px-5 inset-2 z-0 backdrop:blur-md blur-sm rotate-ring opacity-40 shadow-md rounded-full"></div>
            
-             // Foreground text with background blur 
+             {/* // Foreground text with background blur  */}
              <span
                className="relative z-10 inline-block px-6 pt-[6px] pb-[5px] text-base font-medium whitespace-nowrap rounded-full bg-neutral-900/70 text-neutral-100 overflow-hidden"
                style={{
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
              >
                Hello, I'm Arpit
              </span>
-           </div> */}
+           </div>
  
             {/* Animated Role Text */}
             <div className="h-16 flex quando-regular items-center justify-center">
